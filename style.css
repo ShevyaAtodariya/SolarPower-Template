@@ -1,0 +1,1242 @@
+/* mobile view */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+.logo_s{
+    width: 100px;
+    height: auto;
+    margin: 20px 0px 0px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #727272;
+    padding: 3px;
+}
+.navbar a:hover{
+    color: rgb(41, 41, 168);
+}
+.header i{
+    /* margin: 0px 0px 0px 160px; */
+    color: #727272;
+    font-size: 22px;
+}
+.carousel{
+    width: fit-content;
+    z-index: 1;
+}
+.carousel-caption-mobile{
+    margin-top: 20px;
+}
+.carousel-caption-mobile h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.carousel-caption-mobile h1 span{
+    font-weight: 100;
+}
+.carousel-caption-mobile p{
+    max-width: 900px;
+    margin: 0px 10px;
+    text-align: justify;
+}
+.black-btn{
+    color: white;
+    background-color: black;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.black-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+.bottom{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -42px;
+    padding: 3px 0px 3px 10px;
+    z-index: 2;
+    position: relative;
+}
+.bottom p{
+    margin-bottom: 0rem;
+}
+.social{
+    padding-left: 30px;
+}
+.social i{
+    padding-right: 7px;
+}
+
+/* about us */
+.about-us{
+    padding: 70px 0px 0px 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.about-us h5{
+    color: rgb(41, 41, 168);
+}
+.about-logo img{
+    background-color: white;
+    margin: -40px 0px 0px 0px;
+    padding: 10px 5px;
+    width: 80px;
+    height: auto;
+    box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.5);
+}
+.about-image img{
+    width: 240px;
+    height: auto;
+    margin-left: 40px;
+    z-index: 0;
+}
+.about-img{
+    padding: 20px 0px 0px 0px;
+}
+.about-us p{
+    padding-right: 20px;
+    text-align: justify;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: white;
+    color: rgb(41, 41, 168);
+    border: 3px solid rgb(41, 41, 168);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* services */
+.white-heading{
+    font-weight: bold;
+}
+.white-heading p{
+    font-size: 20px;
+}
+.service{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+    
+.cards-img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-logo img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -39px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+} 
+.card-details hr{
+    border-top: 2px solid black;
+}
+.card-details p{
+    color: #727272;
+    text-align: justify;
+    padding-right: 10px;
+}
+.card-details p b{
+    padding-left: 25px;
+    color: black;
+}
+.card-details:hover p{
+    color: black;
+}
+.card-details:hover p b{
+    color: rgb(41, 41, 168);
+}
+
+/* projects */
+.projects-heading{
+    margin: 30px 0px 0px 10px;
+}
+.projects-heading p{
+    color: rgb(41, 41, 168);
+    font-weight: bold;
+    font-size: 20px;
+}
+.projects-img{
+    width: 277px;
+    height: 250px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-details{
+    position: relative;
+    margin-left: 2em;
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+    margin-right: auto;
+}
+.projects-text{
+    margin: -70px 0px 30px 20px;
+}
+.projects-details{
+    background-color: white;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 220px; /* Set the width of the positioned div */
+    padding-right: 10px;
+}
+.projects-details p{
+    color: rgb(41, 41, 168);
+    font-weight: bold;
+}
+.projects-details hr{
+    border-top: 1px solid rgb(41, 41, 168);
+    width: 50px;
+    margin: -27px 0px 0px 110px;
+}
+
+/* pricing */
+.pricing{
+    margin: 30px 0px 0px 10px;
+}
+.price{
+    color: rgb(41, 41, 168);
+}
+.list-row{
+    margin: 0px 10px;
+}
+.list-btn{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list-head{
+    margin-top: 20px;
+}
+
+/* blog */
+.blog{
+    margin: 20px 0px 0px 10px;
+}
+.blog-heading p{
+    color: rgb(41, 41, 168);
+    font-size: 20px;
+    font-weight: bold;
+}
+.blog-card{
+    display: flex;
+    flex-direction: column;
+}
+.blog-card img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-individual-card span{
+    color: #727272;
+}
+.blog-individual-card{
+    margin: 0px 25px;
+}
+.blog-individual-card p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+.blog-individual-card:hover p{
+    color: rgb(41, 41, 168);
+}
+.blog-img-text img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.blog-img-text{
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;       /* Adjust this value to move the positioned div up and down */
+    width: 320px;   /*Set the width of the positioned div */
+}
+.blog-img-text p{
+    color: #cecece;
+    margin: -50px 0px 0px 20px;
+    font-size: 12px;
+}
+.blog-img-text h6{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 0px 20px;
+}
+
+/* testimonials */
+.testimonials{
+    margin: 40px 0px 0px 0px;
+    padding-bottom: 30px;
+    background-image: url("./image/testim Bg.png");
+    background-repeat: no-repeat;
+}
+.test-carousel{
+    margin-top: 40px;
+    z-index: 1;
+}
+.testimonials .white-heading{
+    color: white;
+    margin-left: 10px;
+}
+.testimonials .white-heading p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.test-carousel-item{
+    display: flex;
+    flex-direction: column;
+}
+.test-carousel-item img{
+    width: 320px;
+}
+.test-carousel-item2 img{
+    width: 280px;
+    margin-left: 20px;
+}
+.test-carousel-text1{
+    margin: -140px 0px 0px 85px;
+    width: 170px;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    z-index: 3;
+}
+.test-carousel-text1 p{
+    color: #727272;
+    text-align: justify;
+}
+.test-carousel-text1 h6{
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    font-size: 11px;
+    padding-right: 40px;
+}
+.test-carousel-text2{
+    margin: -140px 0px 0px 85px;
+    width: 170px;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    z-index: 3;
+}
+.test-carousel-text2 p{
+    color: #727272;
+    text-align: justify;
+}
+.test-carousel-text2 h6{
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    font-size: 11px;
+    padding-right: 40px;
+}
+.test-carousel-text1:hover p{
+    color: black;
+}
+.test-carousel-text1:hover h6{
+    color: rgb(41, 41, 168);
+}
+.test-carousel-text2:hover p{
+    color: black;
+}
+.test-carousel-text2:hover h6{
+    color: rgb(41, 41, 168);
+}
+
+/* contact */
+.contact-heading{
+    margin: 30px 0px 0px 10px;
+}
+.contact-heading p{
+    color: rgb(41, 41, 168);
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact-details p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #727272;
+}
+.contact-img{
+    height: 30px;
+}
+.contact-form{
+    padding: 20px 0px 0px 10px;
+    background-image: url("./image/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+}
+.contact-form .button{
+    margin: 30px 0px 20px 0px;
+}
+/* footer */
+.footer{
+    margin-top: 30px;
+    background-image: url("./image/Footer BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-1{
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.logo_w{
+    padding-top: 20px;
+    width: 120px;
+    height: auto;
+}
+.footer-1 p{
+    margin-top: 20px;
+}
+.footer-social{
+    margin-top: -20px;
+}
+.footer-social i{
+    padding-right: 15px;
+    font-size: 24px;
+}
+.footer-2{
+    margin: 50px 0px 0px 10px;
+    color: white;
+}
+.footer-2 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footer-3{
+    margin: 50px 0px 0px 10px;
+    color: white;
+}
+.footer-3 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footer-3 p:hover{
+    color: black;
+}
+.footer-4{
+    margin: 50px 0px 0px 10px;
+    color: white;
+    width: 200px;
+}
+.footer-4 p{
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.last-btn{
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-copyright{
+    margin: 15px 30px;
+    font-weight: bold;
+}
+.footer-copyright span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* tablet view */
+@media (min-width: 768px) {
+    
+    .logo_s{
+        width: 110px;
+        height: auto;
+        margin: 20px 0px 0px 20px;
+    }
+    .header i{
+        color: #727272;
+        font-size: 22px;
+    }
+    .carousel-caption{
+        margin-bottom: 60px;
+        padding: 0px;
+        text-align: center;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+    .carousel-caption h1 span{
+        font-weight: 100;
+    }
+    .carousel-caption p{
+        max-width: 900px;
+        margin: 20px 0px 0px 0px;
+    }
+    .carousel-caption-mobile{
+        display: none;
+    }
+    .black-btn{
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        margin-left: 0px;
+        left: 50%;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .bottom{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -60px;
+        padding: 5px 0px 5px 30px;
+        z-index: 2;
+        position: relative;
+    }
+    .bottom p{
+        margin-bottom: 0rem;
+    }
+    .social{
+        padding-left: 30px;
+    }
+    .social i{
+        padding-right: 15px;
+    }
+
+    /* about us */
+    .about-us{
+        margin-top: 0px;
+        padding: 20px 0px 0px 20px;
+    }
+    .about-logo img{
+        margin: -40px 0px 0px 190px;
+        padding: 20px 10px;
+        width: 100px;
+        height: auto;
+        box-shadow: 10px 10px 80px 0px rgba(0,0,0,0.5);
+    }
+    .about-image img{
+        width: 300px;
+        height: auto;
+        margin-left: 250px;
+    }
+    .about-img{
+        padding: 20px 60px 0px 0px;
+        margin-bottom: 30px;
+    }
+
+    /* services */
+    .white-heading{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    .white-heading p{
+        font-size: 20px;
+    }
+    .service{
+        background-image: url("./image/Services-bg.jpg");
+        padding: 20px 0px 0px 10px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0px 0px 0px;
+        padding-bottom: 20px;
+    }
+    .cards-img{
+        width: 250px;
+        height: auto;
+        padding: 0px 10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-logo img{
+        width: 200px;
+        height: auto;
+        margin: -39px 0px 0px 25px;
+    }
+    .card-details{
+        background-color: white;
+        padding: 20px 10px 5px 10px;
+        width: 230px;
+        height: auto;
+        text-align: justify;
+        margin: -10px 0px 0px 10px;
+    }
+
+    /* project */
+    .projects-heading{
+        text-align: center;
+    }
+    .project-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .projects-img{
+        width: 300px;
+        height: 330px;
+        margin: 20px 0px 30px 55px;
+    }
+    .projects-details{
+        margin: -235px 0px 30px 85px;
+    }
+    .prj-row{
+        margin-bottom: 130px;
+    }
+    .projects-details p{
+        color: rgb(41, 41, 168);
+        font-weight: bold;
+    }
+
+    /* pricing */
+    .pricing{
+        background-image: url("./image/pricing-bg.jpg");
+        margin-left: 0px;
+        padding: 50px 0px;
+    }
+    .list-row{
+        display: flex;
+        flex-direction: row;
+        margin: 0px 20px;
+    }
+    .list-row div{
+        background-color: white;
+        padding: 10px 20px 10px 20px;
+    }
+    .price{
+        color: rgb(41, 41, 168);
+    }
+    .list-head{
+        width: 290px;
+        margin-top: 0px;
+    }
+    .list-row:hover div,.list-row:hover .price{
+        background-color: black;
+        color: white;
+    }
+    .price:hover{
+        color: white;
+    }
+
+    /* blog */
+    .blog{
+        margin: 40px 0px 40px 10px;
+    }
+    .blog-heading p{
+        color: rgb(41, 41, 168);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .blog-parts{
+        display: flex;
+        flex-direction: row;
+    }
+    .blog-card{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .blog-card img{
+        width: 120px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    #blogimg2{
+        width: 235px;
+        height: 100px;
+    }
+    .blog-individual-card{
+        display: flex;
+        flex-direction: row;
+    }
+    .blog-individual-card div{
+        margin: 20px 0px 0px 20px;
+    }
+    .blog-individual-card span{
+        color: #8f8f8f;
+    }
+    .blog-individual-card p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .blog-individual-card:hover p{
+        color: rgb(41, 41, 168);
+    }
+    .blog-img-text{
+        margin-right: 20px;
+    }
+    .blog-img-text img{
+        width: 340px;
+    }
+    .blog-img-text p{
+        color: #cecece;
+        margin: -57px 0px 0px 20px;
+        font-size: 12px;
+    }
+    .blog-img-text h6{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin: 0px 0px 0px 20px;
+    }
+
+    /* testimonials */
+    .testimonials{
+        padding-top: 40px;
+    }
+    .test-carousel{
+        padding: 30px 0px;
+    }
+    .test-carousel-item{
+        display: flex;
+        flex-direction: row;
+    }
+    .test-carousel-item img{
+        width: 390px;
+    }
+    .test-carousel-item2 img{
+        width: 340px;
+    }
+    .test-carousel-text1{
+        margin: -160px 0px 0px 85px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .test-carousel-text1 h6{
+        font-size: 13px;
+    }
+    .test-carousel-text2{
+        margin: -160px 0px 0px 85px;
+        width: 200px;
+        font-size: 13px;
+    }
+    .test-carousel-text2 h6{
+        font-size: 13px;
+    }
+
+    /* contact */
+    .contact-heading{
+        text-align: center;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0px 0px 15px;
+        text-align: center;
+    }
+    .contact-details div{
+        margin: 0px 50px;
+    }
+    .contact-form{
+        padding-top: 50px;
+        margin: 20px;
+    }
+    .contact-form-parts{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-form input{
+        height: 40px;
+        margin: 0px 40px 10px 40px;
+    }
+    .contact-form .button{
+        margin: 20px 260px;
+    }
+
+    /* footer */
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-1 p, .footer-2 p, .footer-3 p, .footer-4 p{
+        font-size: 16px;
+    }
+    .footer-social i{
+        padding: 0px 15px 20px 0px;
+        font-size: 16px;
+    }
+    .footer-2, .footer-3, .footer-4{
+        margin-left: 20px;
+    }
+}
+
+
+/* Full screen */
+@media (min-width: 1024px) {
+    .logo_s{
+        width: 130px;
+        height: auto;
+        margin: 20px 0px 0px 70px;
+    }
+
+    .header i{
+        color: #727272;
+        font-size: 22px;
+    }
+    .navbar{
+        margin: -96px 60px 0px 500px;
+    }
+    .navbar a{
+        font-weight: bold;
+        font-size: 17px;
+        padding: 15px 0px;
+    }
+    .carousel{
+        margin-top: 30px;
+        width: fit-content;
+        z-index: 1;
+    }
+    .carousel-caption{
+        margin-bottom: 90px;
+    }
+    .carousel-caption-mobile{
+        display: none;
+    }
+    .carousel-caption h1{
+        font-size: 70px;
+    }
+    .carousel-caption h1 span{
+        font-weight: 100;
+    }
+    .carousel-caption p{
+        max-width: 900px;
+        margin: 20px 0px 0px 80px;
+    }
+    .carousel-caption-mobile{
+        display: none;
+    }
+    .black-btn{
+        color: white;
+        background-color: black;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 0px;
+        left: 50%;
+    }
+    .bottom{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 18px;
+        padding: 10px 0px 10px 80px;
+        margin: -90px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        z-index: 2;
+        position: relative;
+    }
+    .social{
+        padding-left: 30px;
+    }
+    .social i{
+        padding-right: 15px;
+    }
+
+    /* About us */
+    .about-us{
+        margin: 70px 70px 120px 70px;
+        padding: 0px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .about-logo img{
+        margin: -60px 0px 0px -70px;
+        padding: 20px 10px;
+        width: 140px;
+        height: auto;
+    }
+    .about-image img{
+        width: 400px;
+        height: auto;
+        margin-left: 0px;
+    }
+    .about-img{
+        padding: 0px 0px 0px 0px;
+    }
+    .about-us p{
+        margin-right: 80px;
+    }
+    .button{
+        margin: 30px 0px 0px 0px;
+        padding: 8px 20px;
+    }
+    
+    /* services */
+    .white-heading{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    .white-heading p{
+        font-size: 20px;
+    }
+    .service{
+        background-image: url("./image/Services-bg.jpg");
+        padding-top: 50px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+    .install{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards-img{
+        width: 340px;
+        height: auto;
+        padding: 0px 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-logo img{
+        margin: -38px 0px 0px 70px;
+    }
+    .card-details{
+        background-color: white;
+        padding: 10px 10px 5px 10px;
+        width: 280px;
+        height: auto;
+        text-align: justify;
+        margin: 0px 0px 0px 30px;
+    }
+
+    /* project */
+    .projects-heading{
+        text-align: center;
+    }
+    .projects-heading p{
+        color: rgb(41, 41, 168);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0px 0px 130px;
+    }
+    .project-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .projects-img{
+        width: 277px;
+        height: 450px;
+        margin: 20px;
+    }
+    .projects-btn{
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .projects-details{
+        margin: -270px 0px 0px 40px;
+    }
+    .prj-row{
+        margin-bottom: 150px;
+    }
+    .projects-details p{
+        color: rgb(41, 41, 168);
+        font-weight: bold;
+    }
+    .projects-details hr{
+        border-top: 1px solid rgb(41, 41, 168);
+        width: 50px;
+        margin: -27px 0px 0px 110px;
+    }
+
+    /* pricing */
+    .pricing{
+        background-image: url("./image/pricing-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 100px 0px 0px 0px;
+        padding: 50px 0px 147px 0px;
+    }
+    .list-row{
+        display: flex;
+        flex-direction: row;
+        margin-left: 160px;
+    }
+    .list-row div{
+        background-color: white;
+        padding: 40px 20px 30px 20px;
+    }
+    .price{
+        color: rgb(41, 41, 168);
+    }
+    .list-head{
+        width: 290px;
+        margin: 0px;
+    }
+    .list-btn{
+        margin-top: -7px;
+    }
+    .list-row:hover div,.list-row:hover .price{
+        background-color: black;
+        color: white;
+    }
+    .price:hover{
+        color: white;
+    }
+
+    /* blog */
+    .blog{
+        margin: 50px 0px 20px 50px;
+    }
+    .blog-heading p{
+        color: rgb(41, 41, 168);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .blog-parts{
+        display: flex;
+        flex-direction: row;
+    }
+    .blog-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-card img{
+        width: 200px;
+        height: 170px;
+        margin-top: 20px;
+    }
+    #blogimg2{
+        width: 200px;
+        height: 170px;
+    }
+    .blog-individual-card{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+    }
+    .blog-individual-card div{
+        margin: 40px 0px 0px 20px;
+    }
+    .blog-individual-card span{
+        color: #8f8f8f;
+    }
+    .blog-individual-card p{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .blog-individual-card:hover p{
+        color: rgb(41, 41, 168);
+    }
+    .blog-img-text img{
+        width: 500px;
+        margin-left: -200px;
+    }
+    .blog-img-text p{
+        color: #cecece;
+        margin: -80px 0px 0px -180px;
+        font-size: 12px;
+    }
+    .blog-img-text h6{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin: 10px 0px 0px -180px;
+    }
+
+    /* testimonials */
+    .testimonials{
+        padding-top: 40px;
+        background-size: 100%;
+    }
+    .test-carousel{
+        margin: 50px 0px 0px 120px;
+    }
+    .test-carousel-item{
+        display: flex;
+        flex-direction: row;
+    }
+    .test-carousel-item img{
+        width: 650px;
+    }
+    .test-carousel-item2 img{
+        width: 560px;
+    }
+    .test-carousel-text1{
+        margin: -250px 0px 120px 160px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .test-carousel-text1 h6{
+        font-size: 16px;
+    }
+    .test-carousel-text2{
+        margin: -250px 0px 120px 160px;
+        width: 300px;
+        font-size: 16px;
+    }
+    .test-carousel-text2 h6{
+        font-size: 16px;
+    }
+
+    /* contact */
+    .contact-heading{
+        text-align: center;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: row;
+        margin: 40px 0px 0px 320px;
+        text-align: center;
+    }
+    .contact-details div{
+        margin: 0px 80px;
+    }
+    #globe-text{
+        padding-top: 10px;
+    }
+    .contact-form{
+        padding-top: 50px;
+        height: 400px;
+        margin: 30px 200px;
+    }
+    .contact-form-parts{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-form input{
+        height: 50px;
+        width: 440px;
+        margin: 0px 40px 10px 90px;
+    }
+    .contact-form textarea{
+        width: 450px;
+        height: 220px;
+    }
+    .contact-form .button{
+        margin: 20px 260px;
+    }
+
+    /* footer */
+    .footer{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 85px;
+    }
+    .footer-1{
+        margin: 120px 0px 0px 140px;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .logo_w{
+        width: 150px;
+        height: auto;
+        margin-top: -20px;
+    }
+    .footer-1 p{
+        margin-top: 50px;
+    }
+    .footer-social i{
+        padding: 20px 25px 0px 0px;
+        font-size: 24px;
+    }
+    .footer-2{
+        margin: 120px 0px 0px 100px;
+        color: white;
+    }
+    .footer-2 p{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .footer-3{
+        margin: 120px 0px 0px 190px;
+        color: white;
+    }
+    .footer-3 p{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .footer-3 p:hover{
+        color: black;
+    }
+    .footer-4{
+        margin: 120px 0px 0px 140px;
+        color: white;
+        width: 200px;
+    }
+    .footer-4 p{
+        font-size: 16px;
+        margin: 40px 0px;
+    }
+    .footer-copyright{
+        margin: 30px 0px 25px 70px;
+        font-weight: bold;
+    }
+}
